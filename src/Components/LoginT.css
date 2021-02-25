@@ -1,0 +1,23 @@
+.logint__in{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 10px;   
+}
+.logint>hr{
+    margin: 5px;
+    width: 108.5%;
+    height: 0.1px;
+    background-color:rgb(233,233,233);
+    border: none;
+}
+.logint__in:hover{
+    background-color: rgb(245,243,243);
+    cursor: pointer;
+    width: 100%;
+}
+h2{
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-left: -10px;
+}

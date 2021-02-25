@@ -1,0 +1,22 @@
+.below{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 10px;  
+    flex-direction: column; 
+} 
+ .below>hr{
+    margin: 5px;
+    width: 108.5%;
+    height: 0px;
+    background-color:rgb(233,233,233);
+    border: none;
+} 
+h6{
+    font-weight: 500;
+    font-size: 14px;
+}
+ .below:hover{
+    background-color: rgb(245,243,243);
+    cursor: pointer;
+    width: 100%;
+} 
