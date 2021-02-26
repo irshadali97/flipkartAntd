@@ -102,7 +102,10 @@ const Footer = () => {
             <ul>
               <li>CIN: U51109KA2012PTCO66107</li>
               <li>
-                Telephone:<a OnClick="tele">18002029898</a>
+                Telephone:
+                <a className="num" onClick="()">
+                  18002029898
+                </a>
               </li>
             </ul>
           </p>

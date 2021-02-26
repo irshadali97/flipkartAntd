@@ -6,13 +6,39 @@
 }
 .app {
   height: 50vh;
+  padding: 20px 0 0 0;
 }
 .main p {
   width: 18vw;
+  color: white;
+}
+.mail {
+  border-left: 1px ridge rgb(187, 181, 181);
+  padding: 20px 0 0 40px;
+}
+h3 {
+  color: rgb(201, 185, 185);
+}
+.num {
+  color: rgb(48, 122, 146);
 }
 ul li {
   list-style: none;
 }
 ul li a {
   color: white;
+}
+ul li a:hover {
+  color: white;
+}
+a:after {
+  content: "";
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+a:hover::after {
+  width: 100%;
 }
