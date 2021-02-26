@@ -1,0 +1,17 @@
+.moret__in{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 10px;   
+}
+.moret>hr{
+    margin: 2px;
+    width: 108.5%;
+    height: 0.1px;
+    background-color:rgb(233,233,233);
+    border: none;
+}
+.moret__in:hover{
+    background-color: rgb(245,243,243);
+    cursor: pointer;
+    width: 100%;
+}

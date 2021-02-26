@@ -1,0 +1,24 @@
+h5{
+    font-size: 14px;
+}
+.secondr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: auto;
+    align-items: center;  
+    margin-top: 10px;
+    margin-right: 4px;
+    height: 100px;
+    background-color: white;
+}
+.Img{
+    width: 60px;
+    object-fit: contain;
+    
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
