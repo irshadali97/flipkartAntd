@@ -1,0 +1,18 @@
+.content {
+  background-color: rgb(32, 32, 54);
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.app {
+  height: 50vh;
+}
+.main p {
+  width: 18vw;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: white;
+}
